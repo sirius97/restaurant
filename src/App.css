@@ -20,8 +20,7 @@ html {
 
 
 body {
-  background-image: url("https://image.freepik.com/free-vector/topographic-line-map-with-river_73458-435.jpg"),
-    linear-gradient(110deg, #f93d66, #6d47d9);
+  background-image: url("https://image.freepik.com/free-vector/topographic-line-map-with-river_73458-435.jpg");
   background-size: 340px, auto;
   /*min-height: calc(100vh - 100px);*/
   margin: 50px;
