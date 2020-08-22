@@ -1,6 +1,7 @@
 {
   "name": "codewave",
   "version": "0.1.0",
+  "homepage": "https://sirius97.github.io/restaurant/",
   "private": true,
   "dependencies": {
     "react": "^16.13.1",
