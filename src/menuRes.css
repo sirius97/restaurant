@@ -1,0 +1,42 @@
+.menuRes{
+    width:280px;
+    max-width:70%;
+    left:0;
+    top:0;
+    z-index:200;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+.menuButton{
+  text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  
+  a {
+    background: var(--yellow);
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+/*@media(min-width:500px)*/
+@media only screen and (min-width: 1000px){
+    .menuRes{
+        display: none;
+    }
+
+    .menuButton{
+        display: none;
+      }
+}
