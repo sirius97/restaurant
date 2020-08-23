@@ -85,7 +85,7 @@ img {
 .hero {
   grid-area: hero;
   min-height: 400px;
-  background: url(https://www.tacobell.co.in/pub/static/frontend/Flamingo/default/en_US/images/home-menu-taco-img.jpg);
+  background: url(https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
   background-size: cover;
   background-position: bottom right;
   padding: 50px;
@@ -177,6 +177,7 @@ img {
 
 .about {
   background: white;
+  background-image: url(https://www.tacobell.co.in/pub/static/frontend/Flamingo/default/en_US/images/home-menu-burritos-img.jpg);
   padding:50px;
   display: grid;
   grid-template-columns: 400px 1fr;

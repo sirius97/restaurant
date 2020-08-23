@@ -30,7 +30,7 @@ class App extends Component {
 
     <section className="features">
       <div className="feature">
-        <span className="icon">🌮</span>
+        <span className="icon"><span>🌮</span></span>
         <h3>Tacos</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
       </div>
@@ -52,7 +52,7 @@ class App extends Component {
     </section>
 
     <section className="about">
-      <img src="https://www.tacobell.co.in/pub/static/frontend/Flamingo/default/en_US/images/home-menu-burritos-img.jpg" alt="Yummy Taco" className="about__mockup"/>
+      <img src="https://images.unsplash.com/photo-1564767655658-4e6b365884ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Yummy Taco" className="about__mockup"/>
       <div className="about__details">
         <h2>Featured Taco</h2>
         <p>Slim Profile, easy to hold and loaded with cheese.</p>
