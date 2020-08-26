@@ -22,9 +22,7 @@ html {
 body {
   background-image: url("https://image.freepik.com/free-vector/topographic-line-map-with-river_73458-435.jpg");
   background-size: 340px, auto;
-  /*min-height: calc(100vh - 100px);*/
   margin: 50px;
-  /* background: white; */
   background-attachment: fixed;
 
 }
@@ -37,21 +35,7 @@ h5,
 h6 {
   margin: 0 0 5px 0;
 }
-/* Each item in our grid will contain numbers */
-/*.item {
-  
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid rgba(0, 0, 0, 0.03);
-  border-radius: 3px;
-  font-size: 35px;
-  background-color: var(--yellow); 
-}*/
 
-/*.item p {
-  margin: 0 0 5px 0;
-}*/
 
 body {
   font-size: 15px;
@@ -67,7 +51,7 @@ img {
   max-width: 100%;
 }
 
-/* .wrapper */
+
 
 .wrapper {
   display: grid;
@@ -150,7 +134,7 @@ img {
   display: none;
 }
 
-/* Features! */
+
 
 .features {
   display: grid;
@@ -173,7 +157,7 @@ img {
   color: rgba(0,0,0,0.5);
 }
 
-/* About Section */
+
 
 .about {
   background: white;
@@ -184,7 +168,7 @@ img {
   align-items: center;
 }
 
-/* Gallery! */
+
 
 .gallery {
   display: grid;
@@ -257,7 +241,7 @@ img {
       "hero hero"
       "cta1 cta2"
   }
-  /* About */
+
   .about {
     grid-template-columns: 1fr;
   }
